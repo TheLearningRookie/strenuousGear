@@ -1,0 +1,628 @@
+@-moz-document url(about:startpage){
+  body{
+    background-color: #393838 !important;
+  }
+  .search-box{
+    border-color: #565153 !important;
+  }
+  .search-button{
+    border: 1px solid #515653 !important;
+    background: webkit linear-gradient(top, #3938380%, #393838 100%) !important;
+    background: linear-gradient(to bottom, #393838 %, #393838 100%) !important;
+  }
+  .ubuntu-branding{
+    background-color: transparent !important;
+  }
+  .logo a{
+    background: url(https://ssl.gstatic.com/gb/images/p1_de1b1807.png) no-repeat !important;
+    height: 44px !important;
+    width: 44px !important;
+    background-position-x: -10px !important;
+    background-position-y: -838px !important;
+  }
+  input[type="search"]{
+    background: #393838 !important;
+    border: 1px solid #515653 !important;
+    color: #808080 !important;
+  }
+  .external-links{
+    margin: -80px auto !important;
+  }
+}
+
+@-moz-document url(about:newtab){
+  body{
+    background-color: #393838 !important;
+  }
+  #newtab-search-container, #newtab-search-logo{
+    display: none !important;
+  }
+  #newtab-grid{
+    display: none !important;
+  }
+  #newtab-customize-button{
+    display: none !important;
+  }
+}
+
+
+
+/* https://mail.google.com/mail/u/0/#inbox*/
+@-moz-document url-prefix(https://mail.google.com/mail/u/0/#inbox*){
+  .no{
+    background-color: #39333c !important;
+  }
+  .y0{
+    background-color: #39333c !important;
+  }
+}
+
+
+
+/*youtube.com*/
+@-moz-document url-prefix(https://www.youtube.com){
+  body{
+    background: #272629 !important;
+  }
+/*footer*/
+  body #footer-container{
+    background-color: #454148 !important;
+    border: 0px !important;
+  }
+  #footer-main{
+    border-bottom: 1px solid #FE5D5D !important;
+  }
+  #footer-links-primary{
+    color: #272629 !important;
+    font-weight: 200 !important;
+  }
+  #footer-links-secondary{
+    color: #FE5D5D !important;
+    font-weight: 200 !important;
+  }
+  #header, #alerts{
+    display: none !important;
+  }
+/*header and navigation*/
+  #yt-masthead-container, #masthead-appbar{
+    background: #454148 !important;
+    border-bottom: 0px !important;
+  }
+/*text-color at navigation*/
+  #appbar-nav .yt-uix-button.yt-uix-button-epic-nav-item{
+    color: #7E7D81 !important;
+  }
+/*text-color at navigation*/
+  .guide-header p{
+    color: #7E7D81 !important;
+  }
+/**/
+  li.guide-section h3 a{
+    color: #Fe5D5D !important;
+  }
+/*text-color header at sidebar*/
+  li.guide-section h3{
+    color: #FE5D5D !important;
+  }
+  #masthead-search-terms{
+    background-color: #35353C !important;
+  }
+  .branded-page-module-title a:visited, .branded-page-module-title a{
+    color: #7E7D81 !important;
+  }
+  #masthead-search-terms input{
+    color: #8F8D9C !important;
+  }
+  #masthead-search-terms input:focus{
+    background-color: #35353C !important;
+    border: 1px solid #FE5D5D !important;
+  }
+  .masthead-search-terms-border{
+    border-top: 1px solid #FE5D5D !important;
+    border-bottom: 1px solid #FE5D5D !important;
+    border-left: 1px solid #FE5D5D !important;
+    border-right: 0px !important;
+    box-shadow: none !important;
+  }
+  .yt-uix-button-default{
+    background: transparent !important;
+    border-color: #FF592D !important;
+    color: #FF592D !important;
+  }
+  .yt-uix-button{
+    border-radius: 0px !important;
+  }
+  .yt-badge-live{
+    border: 1px solid #FE5D5D !important;
+    color: #FE5D5D !important;
+  }
+/*TrendingSection*/
+  #browse-items-primary{
+    background: transparent !important;
+  }
+  .item-section{
+    background-color: #272629 !important;
+  }
+  .yt-card clearfix{
+    background: transparent !important;
+  } 
+/*remove ads*/
+  .video-masthead{
+    display: none !important;
+  }
+  #appbar-guide-menu{
+    background-color: #35353c !important;
+    border-top: 3px solid #FE5D5D !important;
+    border-right: 3px solid #FE5D5D !important;
+    border-bottom: 3px solid #FE5D5D !important;
+  }
+/*navigation selected item*/
+  .guide-item.guide-item-selected{
+    background: #FE5D5D !important;
+    color: #262429 !important;
+    font-weight: 200 !important;
+  }
+  .individual-feed{
+    background-color: #272629 !important;
+  }
+/*video title, views and date uploaded*/
+  .yt-ui-ellipsis, .yt-lockup{
+    background-color: #272629 !important;
+    color: #454148 !important;
+    font-weight: 200 !important;
+  }
+  .yt-ui-ellipsis:hover{
+    color: #FE5D5D !important;
+    text-decoration: none !important;
+  }
+/*text-color header video section*/
+  .branded-page-module-title a:visited{
+    color: #7E7D81 !important;
+  }
+  /*navigation layout*/
+  .appbar-guide-menu-layout{
+    margin-top: 100px !important;
+    height: 75% !important;
+    border-radius: 3px !important;
+    width: 170px !important;
+  }
+  .guide-item{
+    color: #7E7D81 !important;
+    font-size: 10px !important;
+  }
+  #guide-container{
+    padding: 12px 10px !important;
+    width: 160px !important;
+  }
+  .guide-section-separator{
+    border-bottom: 1px solid #7E7D81 !important;
+  }
+  .guide-toplevel{
+    width: 150px !important;
+  }
+/*resume-playback-progress-bar*/
+  .resume-playback-progress-bar{
+    background: #FE5D5D !important;
+  }
+/*next video playing*/
+  .autoplay-bar{
+    background: #49424E !important;
+    color: #FE5D5D !important;
+  }
+  .autoplay-hovercar{
+    background: #FE5D5D !important;
+  }
+  .watch-sidebar-head{
+    color: #FE5D5D !important;
+  }
+  .watch-sidebar-body{
+    background: #272629 !important;
+  }
+  #watch7-sidebar-contents{
+    padding: 0px !important;
+  }
+  .watch-sidebar-section{
+    margin: 0px !important;
+    margin-left: 0px !important;
+  }
+  #watch7-sidebar .watch-sidebar-separation-line{
+    border-bottom: 3px solid #FE5D5D !important;
+    margin: 0px !important;
+  }
+  .yt-uix-checkbox-on-off input[type="checkbox"]:checked + label{
+    background: #FE5D5D !important;
+  }
+  .content-alignment{
+    border: 2px solid #49424E !important;
+    border-radius: 2px !important;
+  }
+/*video title*/
+  .video-list .video-list-item .title{
+    color: #454148 !important;
+    font-weight: 200 !important;
+  }
+  .video-list .video-list-item .title:hover{
+    color: #FE5D5D !important;
+    font-weight: 200 !important;
+  }
+  .video-list-item .title{
+    color: #FE5D5D !important;
+  }
+  .branded-page-module-title-text{
+    color: #7E7D81 !important;
+  }
+/*watching videos profile*/
+  .yt-card.yt-card-has-padding{
+    background: transparent !important;
+    color: #FE5D5D !important;
+  }
+  #watch-description-content{
+    color: #57515C !important;
+  }
+  #watch-discussion{
+    background: #2E2C30 !important;
+    color: #57515C !important;
+  }
+  .comment-simplebox{
+    background: transparent !important; 
+  }
+  .comment-simplebox-frame{
+    border: 1px solid #FE5D5D !important;
+    margin-left: 0px !important;
+    color: #454148 !important;
+    padding: 0px !important;
+  }
+  .comment-simplebox-text{
+    border: 1px solid #414548 !important;
+    background: transparent !important;
+  }
+  .comment-simplebox-text:focus{
+    background: transparent !important;
+    color: #717074 !important;
+    font-weight: 200 !important;
+    border: 1px solid #FE5D5D !important;
+  }
+  .comment-simplebox-arrow{
+    display: none !important;
+  }
+/*logout*/
+  .yt-uix-clickcard-card-border{
+    background: #4F596B !important;
+    border: 2px solid #FE5D5D !important;
+  }
+  .yt-masthead-picker-footer{
+    background: #58505A !important;
+  }
+  a:hover{
+    color: #FE5D5D !important;
+    text-decoration: none !important;
+  }
+/*comment history*/
+  .comment-history-entry-renderer-content{
+    color: #414548 !important;
+  }
+  .feed-header{
+    background: #414548 !important;
+    margin-top: 0px !important;
+    border-bottom: 1px solid #414548 !important;
+  }
+}
+
+
+@-moz-document domain(google.com){
+  body{
+    background: #393948 !important;
+  }
+  ._Fmb{
+    background-color: #424A5C !important;
+  }
+  a:link{
+    color: #4B546F !important;
+    font-weight: 200 !important;
+  }
+  a:hover{
+    color: #9694F9 !important;
+    text-decoration: none !important;
+  }
+  a:visited{
+    color: #71778A !important;
+  }
+  /*logo accountImage*/
+  .sfbgg{
+    background-color: #393948 !important;
+  }
+  /*applicationsGrid border*/
+  .gb_ga{
+    background: none !important;
+    border-color: none !important;
+    border: 1px solid #80A4FB !important;
+  }
+  /*applicationsGrid more*/
+  .gb_ka{
+    background: #80A4FB !important;
+  }
+  .gb_la{
+    border-bottom: 1px solid #80A4FB !important;
+  }
+  /*applicationsGrid pointingTriangle*/
+  .gb_kb{
+    border-bottom-color: #80A4FB !important;
+  }
+  /*applicationsGrid background*/
+  .gb_ja{
+    background: transparent !important;
+  }
+  /*applicationGrid textcolor*/
+  .gb_3{
+    color: 5B5774 !important;
+    font-weight: 200 !important;
+  }
+  .gb_Z:hover a{
+    border: 1px solid #3E4654 !important;
+    background: #3E4654 !important;
+  }
+  .gb_Z:hover .gb_3{
+    background: #3E4654 !important;
+  }
+  /*notifications background*/
+  .gV6pJf{
+    background: transparent !important;
+  }
+  .fEjTrb{
+    background: #3D3D4E !important;
+  }
+  .gb_yb{
+    background: #3D3D4E !important;
+    border-top: none !important;
+  }
+  /*accountButtons*/
+  .gb_Fa{
+    background: transparent !important;
+    border: 1px solid #545780 !important;
+  }
+  /*searchBar*/
+  .sbib_a{
+    background: #393948 !important;
+    border: 1px solid #787F9B !important;
+  }
+  /*searchBar hover*/
+  .sbib_a:hover{
+    background: #787F9B !important;
+  }
+  /*searchBar font*/
+  #lst-ib{
+    color: #C8C8C8 !important;
+  }
+  .sbsb_c{
+    color: #4B4B4B !important;
+  }
+  /*searchBar buttonIcon*/
+  .sbico{
+    color: #393948 !important;
+  }
+  .sbibod{
+    background: #787F9B !important;
+    box-shadow: none !important;
+  }
+  /*searchBar suggestions*/
+  .sbsb_b{
+    background: #727892 !important;
+    border: 1px solid #787F9B !important;
+  }
+  /*searchBar categories*/
+  #hdtb{
+    border-bottom: none !important;
+  }
+  #hdtb .hdtb-mitem a{
+    color: #676781 !important;
+    padding: 25px 0px !important;
+    display: inline !important;
+  }
+  #hdtb-msb .hdtb-mitem.hdtb-msel{
+    border-bottom: 3px solid #393948 !important;
+    color: #676781 !important;
+    background: #393948 !important;
+    font-weight: 200 !important;
+  }
+  #hdtbSum{
+    background: #424A5C !important;
+  }
+  /*searchResult stat*/
+  #extabar{
+    background: #393948 !important;
+  }
+  #resultStats{
+    color: #676781 !important;
+    background: #393949 !important;
+  }
+  /*searchResults*/
+  .g:hover{
+    background: #2F3C4C !important;
+  }
+  .s{
+    color: #7993AA !important;
+  }
+  ._Rm{
+    color: #7F9AAE !important;
+  }
+  ._hJs{
+    color: #8188AB !important;
+  }
+  /*footer*/
+  #fbar{
+    background: #424A5C !important;
+    border-top: none !important;
+  }
+}
+
+
+
+/*start bracket*/
+@-moz-document url-prefix(https://www.facebook.com){
+  input{
+    background: transparent !important;
+  }
+  body{
+    background: #22242D !important;
+  }
+  /*loginPage start*/
+  #pageFooter{
+    display: none !important;
+  }
+  .inputtext{
+    border-color: #3A415C !important;
+    border-radius: 2px !important;
+    font-weight: 200 !important;
+    color: #4B5B7B !important;
+  }
+  .inputtext:focus{
+    border-color: #3B5998 !important;
+  }
+  .fb_content ._4-u5{
+    display: none !important;
+  }
+  .loggedout_menubar{
+    margin: 120px auto !important;
+    padding: 3px 18px !important;
+    width: 390px !important;
+    border: 1px solid #3A415C !important;
+    border-radius: 8px !important;
+  }
+  /*blue background in loginHeader*/
+  ._53jh{
+    background: none !important;
+    border: none !important;
+  }
+  .menu_login_container .html7magic{
+    display: none !important;
+  }
+  .login_form_label_field{
+    display: none !important;
+  }
+  .uiButtonConfirm{
+    background-color: #22242D !important;
+    border-color: #22242D !important;
+    font-weight: 200 !important;
+  }
+  .uiButtonConfirm:hover{
+    background-color: #3A415C !important;
+    border-color: #3A415C !important;
+  }
+  #u_0_z{
+    color: #5E7087 !important;
+    font-weight: 200 !important;
+  }
+  .sp_SO8pNlcZz3m.sx_261a8c{
+    width: 16px !important;
+  }
+  ._ohf{
+    margin-top: -30px !important;
+    margin-right: -15px !important;
+  }
+  /*loginPage end*/
+
+
+
+  /*newsfeedPage start*/
+
+  /*suggestedPages*/
+  ._64a{
+    display: none !important;
+  }
+  /*newsfeed tile*/
+  #stream_pagelet{
+    width: 500px !important;
+    margin-left: 170px !important;
+  }
+  /*sideNavigation*/
+  .sectionDragHandle{
+    font-weight: 200px !important;
+    color: #797E87 !important;
+  }
+  /*sideNavigation Font*/
+  ._5afe{
+    color: #51475D !important;
+    font-weight: 100 !important;
+  }
+  ._5afe:hover{
+    background: #1E2024 !important;
+    color: #737C8F !important;
+  }
+  /*popUp Menu*/
+  ._54nc{
+    border: none !important;
+    color: #22242D !important;
+    font-weight: 100 !important;
+  }
+  ._54ng{
+    background: #5C576B !important;
+  }
+  ._54ak{
+    border-bottom: 1px solid #484D62 !important;
+  }
+  /*newsfeed tile background*/
+  #content_container{
+    background: #22242D !important;
+  }
+
+
+
+
+
+  /*chats tile*/
+  .fbChatSidebar{
+    background-clip: none !important;
+    background-color: #2B2E39 !important;
+    box-shadow: none !important;
+    border-left: none !important;
+  }
+  #u_0_1f{
+    border: none !important;
+  }
+  .fbChatSidebarMessage{
+    background-color: #2B2E39 !important;
+    border-top: none !important;
+  }
+  ._55ln{
+    color: #515E7E !important;
+  }
+  ._3rh8{
+    background-color: #313545 !important;
+    border-bottom: none !important;
+  }
+  /*messageSkin*/
+  ._51mz{
+    background: #30313F !important;
+  }
+  /*mySend chat*/
+  ._d97{
+    background-color: #313C51 !important;
+    color: #5F6A7E !important;
+  }
+  ._5w1r{
+    background-color: #313C51 !important;
+  }
+  /*tochatWith and other friends*/
+  ._1sk6{
+    background: #414D65 !important;
+  }
+  /*tochat header*/
+  .fbNubFlyoutTitlebar{
+    background: #333F54 !important;
+  }
+  /*typeMessage*/
+  ._1p1t{
+    color: #758EB3 !important;
+  }
+  ._1d4_{
+    background: #39485C !important;
+  }
+  ._552n{
+    background: #39485C !important;
+  }
+
+
+  /*newsfeedPage end*/
+
+}
+/*end bracket */
