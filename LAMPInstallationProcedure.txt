@@ -1,0 +1,41 @@
+first:
+  install apache:
+    execute:
+            sudo apt-get install apache2
+                #type in Y to confirm the installation
+            service apache2 status
+                #in browser, type into url: http://localhost/
+                #if welcome page appears, apache2 works!
+second:
+  install MySQL:
+    execute:
+            sudo apt-get install mysql-server
+                #set root password
+                #comfirm root password
+            mysql_secure_installation
+                #n for the first question, y for questions ahead
+            service mysql status
+third:
+  install PHP:
+    execute:
+            sudo apt-get update
+            sudo apt-get install php7.0-mysql php7.0-curl php7.0-json php7.0-cgi php7.0 libapache2-mod-php7
+                #check version by typing: php -v
+                #create sample php file: sudo vim /var/www/html/phpTesting.php
+                #add phpinfo(); in the file
+                #restart apache2: sudo systemctl restart apache2
+                #in browser, type in the url http://localhost/phpTesting.php
+                  #if sample page appears, php7 works!
+
+            sudo apt-get install phpmyadmin
+                #select apache2, Yes to configure dbconfig-common
+                #provide password you have created while configuring mysql
+                #setup password for phpMyAdmin
+                #confirm phpMyAdmin
+                  #if having trouble accessing phpMyAdmin:
+                      sudo vim /etc/apache2/apache2.conf
+                        #add following line:
+                          Include /etc/phpmyadmin/apache.conf
+                  #restart apache2
+                      sudo systemctl restart apache2
+LAMP should now work!

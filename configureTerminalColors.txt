@@ -1,0 +1,19 @@
+palette entry 1
+palette entry 6
+palette entry 7
+palette entry 8
+palette entry 9
+palette entry 10
+
+palette entry 2[error-prompt name highlight] - #ED4009
+palette entry 3[user-created folder highlight] - #786A81
+palette entry 4[current working directory] - #B59DB5
+palette entry 5[user-created foldername] - #99929E
+palette entry 11[username@machine, system-created filename] - #807A84
+palette entry 12[tag name] - #8775A7
+palette entry 13[system-created foldername] - #99929E
+palette entry 14[text inside a quote] - #998599
+palette entry 15[vimrc's commented text] - #93A1A1
+palette entry 16[error-prompt name] - #F8C294
+text color - #998599
+background color - #4B3550

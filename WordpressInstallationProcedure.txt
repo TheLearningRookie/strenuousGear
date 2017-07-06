@@ -1,0 +1,24 @@
+first:
+  create database:
+    execute:
+          mysql -u root -p
+          create database wordpressDatabase;
+          create user 'wordpressUser'@'localhost' identified by 'w0rdpr3ssPassword';
+          grant all privileges on wordpressDatabase.* to 'wordpressUser'@'localhost' identified by 'w0rpr3ssPassword';
+          flush privileges;
+          exit;
+second:
+  download wordpress:
+    execute:
+          locate /var/www/html/
+          sudo wget http://wordpress.org/latest.tar.gz
+          sudo tar xzvf latest.tar.gz
+          sudo chown -R www-data:www-data wordpress/
+          sudo mv wp-config-sample.php wp-config.php
+          change db_name, db_user, db_password
+          sudo service apache2 restart
+third:
+  setup interface configuration:
+    execute:
+          fill in all the necessary configs!
+done!
